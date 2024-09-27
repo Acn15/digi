@@ -1,42 +1,192 @@
-[{
-	"name": "hero Product",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"hero": "OMG This just came out today!",
-	"image": "http://placehold.it/940x300/999/CCC"
-},{
-	"name": "Product 1",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"info": "This is the latest and greatest product from Derp corp.",
-	"image": "http://placehold.it/300x300/999/CCC"
-},{
-	"name": "Product 2",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"offer": "BOGOF",
-	"image": "http://placehold.it/300x300/999/CCC"
-},{
-	"name": "Product 3",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"image": "http://placehold.it/300x300/999/CCC"
-},{
-	"name": "Product 4",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"offer": "No srsly GTFO",
-	"image": "http://placehold.it/300x300/999/CCC"
-},{
-	"name": "Product 5",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"image": "http://placehold.it/300x300/999/CCC"
-},{
-	"name": "Product 6",
-	"detail": "Lorem ipsum dolor sit amet",
-	"price": "99",
-	"info": "This is the latest and greatest product from Derp corp.",
-	"offer": "info with offer",
-	"image": "http://placehold.it/300x300/999/CCC"
-}]
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "date": "2024-09-01",
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://www.shutterstock.com/shutterstock/photos/2130630635/display_1500/stock-vector--d-wireless-headphones-mockup-set-of-realistic-wireless-over-ear-headphones-and-in-ear-headphones-2130630635.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch",
+    "price": 199.99,
+    "date": "2024-09-05",
+    "description": "Smartwatch with multiple health tracking features and long battery life.",
+    "category": "Wearables",
+    "rating": 4.8,
+    "image": "https://img.freepik.com/vetores-premium/um-relogio-inteligente-com-a-palavra-amor-na-tela_1120557-23113.jpg?w=1380"
+  },
+  {
+    "id": 3,
+    "name": "4K TV",
+    "price": 499.99,
+    "date": "2024-08-21",
+    "description": "Large 4K television with stunning image quality and smart features.",
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://img.freepik.com/vetores-premium/um-desenho-animado-de-uma-tv-com-uma-tv-e-um-fundo-azul-com-uma-imagem-de-uma-tv_327903-2296197.jpg?w=740"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Laptop",
+    "price": 1299.99,
+    "date": "2024-07-15",
+    "description": "High-performance gaming laptop with a powerful graphics card.",
+    "category": "Computers",
+    "rating": 4.6,
+    "image": "https://img.freepik.com/vetores-gratis/laptop-com-foguete_23-2147503371.jpg?t=st=1727444846~exp=1727448446~hmac=d1b91c86caaa25b00cbfacee35acebe88f29341deb7091786bf931647ef6bcfb&w=826"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 79.99,
+    "date": "2024-09-03",
+    "description": "Portable Bluetooth speaker with deep bass and water resistance.",
+    "category": "Audio",
+    "rating": 4.4,
+    "image": "https://img.freepik.com/vetores-premium/portatil-bluetooth-alto-falante-vetor-conjunto-fundo-branco-isolado-um-alto-qua_873925-1792453.jpg?w=826"
+  },
+  {
+    "id": 6,
+    "name": "Action Camera",
+    "price": 249.99,
+    "date": "2024-06-22",
+    "description": "Action camera with 4K recording and waterproof design.",
+    "category": "Cameras",
+    "rating": 4.5,
+    "image": "https://img.freepik.com/vetores-premium/conjunto-de-camara-de-acao-de-vetor-fundo-branco-isolado_873925-1924198.jpg?w=826"
+  },
+  {
+    "id": 7,
+    "name": "Tablet",
+    "price": 299.99,
+    "date": "2024-08-11",
+    "description": "Compact tablet with high-resolution display and large app store.",
+    "category": "Tablets",
+    "rating": 4.3,
+    "image": "https://img.freepik.com/vetores-gratis/maquete-do-dispositivo-digital_53876-89357.jpg?t=st=1727445076~exp=1727448676~hmac=4edcdb3e3ae4bbc3ee87f61a7fbcf1d5a768d3f9e2e472bbf0262dd444651f43&w=826"
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "price": 89.99,
+    "date": "2024-07-30",
+    "description": "Fitness tracker with heart rate monitoring and sleep tracking.",
+    "category": "Wearables",
+    "rating": 4.6,
+    "image": "https://img.freepik.com/vetores-gratis/ilustracao-em-vetor-conceito-abstrato-rastreador-de-esporte-e-fitness_335657-6356.jpg?t=st=1727445104~exp=1727448704~hmac=9efa32f8ccc738d3323c71dc5c138d4ed9231cf0ae80b4bf561d246032f72369&w=826"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "date": "2024-08-02",
+    "description": "Ergonomic wireless mouse with fast response time and adjustable DPI.",
+    "category": "Accessories",
+    "rating": 4.2,
+    "image": "https://img.freepik.com/vetores-gratis/mouse-de-computador-sem-fio-com-ilustracao-3d-de-luzes-led-desenho-animado-da-ferramenta-para-jogar-em-casa-ou-trabalhar-no-estilo-3d-do-escritorio-em-fundo-branco-tecnologia-conceito-de-equipamento_778687-694.jpg?t=st=1727445129~exp=1727448729~hmac=cad9c5f9ab38b3fd1aff0171b44087d7c1d99cbd04e0035ac58a6745b0a4b07b&w=826"
+  },
+  {
+    "id": 10,
+    "name": "Mechanical Keyboard",
+    "price": 99.99,
+    "date": "2024-09-06",
+    "description": "Mechanical keyboard with RGB lighting and customizable keys.",
+    "category": "Accessories",
+    "rating": 4.7,
+    "image": "https://img.freepik.com/vetores-premium/um-teclado-com-o-pad-de-numeros-nele-e-feito-por-g-r-teclado-mecanico-personalizado_1278344-448.jpg?w=996"
+  },
+  {
+    "id": 12,
+    "name": "Electric Scooter",
+    "price": 399.99,
+    "date": "2024-08-19",
+    "description": "Electric scooter with 20-mile range and foldable design.",
+    "category": "Transportation",
+    "rating": 4.5,
+    "image": "https://img.freepik.com/vetores-gratis/scooter-eletrica-com-bateria-e-simbolos-de-carga-ilustracao-vetorial-isolada-realista_1284-78370.jpg?t=st=1727445234~exp=1727448834~hmac=d732896a2f1977bd1ca1f175c9260585a40cf18991653c1bfa04b23b26e57149&w=996"
+  },
+  {
+    "id": 13,
+    "name": "VR Headset",
+    "price": 499.99,
+    "date": "2024-06-28",
+    "description": "VR headset with 360-degree view and motion tracking.",
+    "category": "Gaming",
+    "rating": 4.8,
+    "image": "https://img.freepik.com/vetores-gratis/ilustracao-realista-de-fone-de-ouvido-vr_23-2148755952.jpg?t=st=1727445265~exp=1727448865~hmac=b64e774a568bfdd1090aa6b9815ee07fda09d753fca95e311c9b0d78feb70257&w=826"
+  },
+  {
+    "id": 14,
+    "name": "Drone",
+    "price": 349.99,
+    "date": "2024-09-10",
+    "description": "Drone with HD camera and advanced flight controls.",
+    "category": "Cameras",
+    "rating": 4.4,
+    "image": "https://img.freepik.com/vetores-premium/drone-moderno-voando-com-camera-para-gravacao-de-video_96318-183690.jpg?w=826"
+  },
+  {
+    "id": 15,
+    "name": "Air Purifier",
+    "price": 199.99,
+    "date": "2024-09-12",
+    "description": "Air purifier with HEPA filter for cleaner indoor air.",
+    "category": "Home Appliances",
+    "rating": 4.6,
+    "image": "https://img.freepik.com/vetores-gratis/purificador-de-ar-digital-realista-no-chao-em-ilustracao-vetorial-de-quarto-aconchegante_1284-70561.jpg?t=st=1727445319~exp=1727448919~hmac=83e9242e4b305042e3dcd538fbcd43fc663f63c149ce044afe2b9d44b65b0d7a&w=996"
+  },
+  {
+    "id": 16,
+    "name": "Coffee Maker",
+    "price": 89.99,
+    "date": "2024-09-15",
+    "description": "Automatic coffee maker with programmable settings.",
+    "category": "Kitchen",
+    "rating": 4.3,
+    "image": "https://img.freepik.com/vetores-gratis/metodos-de-fabricacao-de-cafe_23-2148661802.jpg?t=st=1727445341~exp=1727448941~hmac=fae1c973d611ba2e2a8e138dfd7a42bf3fd0463b547e55c2df653b3846b7b023&w=826"
+  },
+  {
+    "id": 17,
+    "name": "Robot Vacuum",
+    "price": 299.99,
+    "date": "2024-07-25",
+    "description": "Robot vacuum with smart navigation and powerful suction.",
+    "category": "Home Appliances",
+    "rating": 4.7,
+    "image": "https://img.freepik.com/vetores-gratis/aspirador-de-po-robo-no-trabalho-com-direcao-de-movimentos-no-piso-em-parquet_1284-32876.jpg?t=st=1727445367~exp=1727448967~hmac=313f83f14c13c4b89e9b77b40c9f2b3aac97b00d21d8fc0851b1a13ee86e1f3f&w=996"
+  },
+  {
+    "id": 18,
+    "name": "Digital Camera",
+    "price": 549.99,
+    "date": "2024-08-09",
+    "description": "Digital camera with 20MP sensor and 4K video recording.",
+    "category": "Cameras",
+    "rating": 4.5,
+    "image": "https://img.freepik.com/vetores-gratis/colecao-futurista-de-cameras-futuristas_23-2147641520.jpg?t=st=1727445393~exp=1727448993~hmac=3363a9402532c8e149f9a0f522f69970acfd5dccdb09ebf811805b68328f145a&w=826"
+  },
+  {
+    "id": 19,
+    "name": "Portable Charger",
+    "price": 39.99,
+    "date": "2024-07-05",
+    "description": "High-capacity portable charger with multiple USB ports.",
+    "category": "Accessories",
+    "rating": 4.8,
+    "image": "https://img.freepik.com/vetores-gratis/conjunto-de-icones-realistas-do-powerbank-com-carregador-de-bateria-e-ilustracao-vetorial-de-cabos-isolados_1284-81776.jpg?t=st=1727445414~exp=1727449014~hmac=7f07cc01596a8fb79f1926403f15625f77cf59ec488787f5044e22f6817f4a8a&w=740"
+  },
+  {
+    "id": 20,
+    "name": "Electric Toothbrush",
+    "price": 69.99,
+    "date": "2024-09-18",
+    "description": "Electric toothbrush with multiple cleaning modes and long battery life.",
+    "category": "Personal Care",
+    "rating": 4.4,
+    "image": "https://img.freepik.com/vetores-gratis/escova-de-dentes-eletrica-3d-isolado-ilustracao-realista-com-cabeca-de-escova-de-substituicao-e-borracha_1441-2384.jpg?t=st=1727445437~exp=1727449037~hmac=7f97f36a4ae1d14db92557c90d88c97385cb304a8a3713b0b2b38a50e2d8cd46&w=996"
+  }
+]
