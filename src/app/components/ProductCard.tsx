@@ -1,4 +1,5 @@
 "use client";
+import { useCartStore } from "@/store/useStore";
 import { Product } from "../interfaces/Products";
 
 type ProductCardProps = {
@@ -6,6 +7,8 @@ type ProductCardProps = {
 };
 
 const ProductCard = ({ product }: ProductCardProps) => {
+  const addToCart = useCartStore((state) => state.addToCart);
+
   return (
     <div className="border rounded-lg overflow-hidden shadow-lg bg-white">
       <img
@@ -20,7 +23,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
           <span className="text-xl font-semibold text-blue-600">
             R${product.price}
           </span>
-          <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors">
+          <button
+            className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
+            onClick={() => addToCart(product)}
+          >
             Add to Cart
           </button>
         </div>
