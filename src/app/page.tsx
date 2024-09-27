@@ -1,6 +1,7 @@
 "use client";
 import useProducts from "./hooks/useProducts";
 import ProductList from "./components/ProductList";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   const { products, loading, error } = useProducts();
@@ -14,9 +15,12 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <h1 className="text-4xl font-bold text-center py-8">Produtos</h1>
-      <ProductList products={products} />
-    </div>
+    <>
+      <Navbar />
+      <div className="bg-gray-100 min-h-screen">
+        <h1 className="text-4xl font-bold text-center py-8">Produtos</h1>
+        <ProductList products={products} />
+      </div>
+    </>
   );
 }
